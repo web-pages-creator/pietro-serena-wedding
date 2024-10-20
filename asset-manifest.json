@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pietro-serena-wedding/static/css/main.05624ef5.css",
-    "main.js": "/pietro-serena-wedding/static/js/main.c0142fd9.js",
+    "main.js": "/pietro-serena-wedding/static/js/main.cd702ae0.js",
     "static/js/453.4a4e6b36.chunk.js": "/pietro-serena-wedding/static/js/453.4a4e6b36.chunk.js",
     "static/media/sposi.png": "/pietro-serena-wedding/static/media/sposi.6e4d813397035f0482aa.png",
     "static/media/church.jpg": "/pietro-serena-wedding/static/media/church.e3e07284ca83adac78c8.jpg",
@@ -11,11 +11,11 @@
     "static/media/flower1.png": "/pietro-serena-wedding/static/media/flower1.e688daf2f314865c38fd.png",
     "index.html": "/pietro-serena-wedding/index.html",
     "main.05624ef5.css.map": "/pietro-serena-wedding/static/css/main.05624ef5.css.map",
-    "main.c0142fd9.js.map": "/pietro-serena-wedding/static/js/main.c0142fd9.js.map",
+    "main.cd702ae0.js.map": "/pietro-serena-wedding/static/js/main.cd702ae0.js.map",
     "453.4a4e6b36.chunk.js.map": "/pietro-serena-wedding/static/js/453.4a4e6b36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05624ef5.css",
-    "static/js/main.c0142fd9.js"
+    "static/js/main.cd702ae0.js"
   ]
 }
