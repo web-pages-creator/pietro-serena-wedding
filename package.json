@@ -1,5 +1,6 @@
 {
   "name": "wedding-ps",
+  "homepage": "https://web-pages-creator.github.io/pietro-serena-wedding/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,8 @@
     "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit-deploy": "git add . | git commit -m 'autocommit' | git push | npm run build | npm run deploy"
   },
   "eslintConfig": {
     "extends": [
