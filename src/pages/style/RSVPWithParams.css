@@ -1,0 +1,64 @@
+.RSVPWithParams {
+  position: relative;
+  overflow-x: hidden;
+  max-width: 500px;
+  font-family: var(--title-second-font);
+}
+
+.rsvp {
+  font-family: var(--title-alternative-font);
+  font-size: 3vh;
+  letter-spacing: -0.05em;
+}
+
+label {
+  font-family: var(--title-second-font);
+}
+
+.name {
+  font-size: 2.5vh;
+  text-transform: uppercase;
+}
+
+.input {
+  text-align: left;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.5s;
+  background-color: rgba(224, 224, 224);
+}
+
+.input:focus {
+  outline: none;
+  background-color: white;
+}
+
+.ta {
+  min-height: 10vh;
+}
+
+.submit {
+  background-color: black;
+  height: 5vh;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: 0.3s;
+}
+
+
+.submit:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+.countDown {
+  font-family: var(--title-first-font);
+  letter-spacing: 30px;
+}
+
+.sposi {
+  height: 15vh;
+}

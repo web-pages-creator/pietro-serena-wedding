@@ -1,38 +1,90 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Meddon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'Mestika';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mestika Regular'), url('/src/static/fonts/Mestika.woff') format('woff');
+}
+@font-face {
+  font-family: 'Bileha';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mestika Regular'), url('/src/static/fonts/Bileha.woff') format('woff');
+}
+
+:root {
+  /*COLORS*/
+  --palette-color-red: #C53A63;
+  --palette-color-red-500: #131313;
+  --palette-color-purple: #C666BA;
+  --palette-color-pink: #FFC1C1;
+  --palette-color-yellow: #F5B257;
+  --palette-color-orange: #FF613E;
+  --palette-color-blue: #92B1D2;
+  --palette-color-green: #4F7936;
+  --palette-color-black: black;
+  --palette-color-white: #f0f0f0;
+
+  /*FONT*/
+  --title-first-font: "Bileha", serif;
+  --title-second-font: "Montserrat", serif;
+  --title-alternative-font: "Mestika", serif;
+  --coursive-font: "League Script", cursive;
+}
+
+body {
+  background-color: var(--palette-color-white);
+}
+
+* {
+  color: var(--palette-color-black);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  text-align: center;
+  font-size: 3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle {
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h1 {
+  text-align: center;
+  font-size: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.italic {
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bold {
+  font-weight: bold;
+}
+
+.semibold {
+  font-weight: 700;
+}
+
+.font1 {
+  font-family: var(--secondary-font);
+}
+
+.font2 {
+  font-family: var(--third-font);
+}
+
+.font3 {
+}
+
+.ps {
+  line-height: 1em;
+  letter-spacing: 0.08em;
 }

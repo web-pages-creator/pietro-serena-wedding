@@ -1,0 +1,97 @@
+.filled-container {
+  position: relative;
+}
+
+.filled-outline {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filled-solid {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  fill: rgb(242, 62, 62);
+}
+
+.filled-solid-animation {
+  animation: fill-animation 0.5s ease-in-out;
+}
+
+@keyframes fill-animation {
+  0% {
+    height: 0%;
+    width: 0%;
+  }
+  80% {
+    height: 120%;
+    width: 120%;
+  }
+  100% {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.unfilled-outline {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.unfilled-solid {
+  position: absolute;
+  height: 0%;
+  width: 0%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  animation: unfill-animation 0.5s ease-in-out;
+  fill: rgb(242, 62, 62);
+}
+
+@keyframes unfill-animation {
+  0% {
+    height: 100%;
+    width: 100%;
+  }
+  60% {
+    height: 120%;
+    width: 120%;
+  }
+  100% {
+    height: 0%;
+    width: 0%;
+  }
+}
+
+.alreadyClicked {
+  animation: already-clicked 0.4s ease-in-out;
+}
+
+@keyframes already-clicked {
+  0% {
+    height: 100%;
+    width: 100%;
+  }
+  60% {
+    height: 120%;
+    width: 120%;
+  }
+  100% {
+    height: 100%;
+    width: 100%;
+  }
+}
