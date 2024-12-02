@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/pietro-serena-wedding/static/css/main.05624ef5.css",
-    "main.js": "/pietro-serena-wedding/static/js/main.cd702ae0.js",
-    "static/js/453.4a4e6b36.chunk.js": "/pietro-serena-wedding/static/js/453.4a4e6b36.chunk.js",
-    "static/media/sposi.png": "/pietro-serena-wedding/static/media/sposi.6e4d813397035f0482aa.png",
-    "static/media/church.jpg": "/pietro-serena-wedding/static/media/church.e3e07284ca83adac78c8.jpg",
-    "static/media/flower2.png": "/pietro-serena-wedding/static/media/flower2.c6e0444cacbddc44bc28.png",
-    "static/media/Mestika.woff": "/pietro-serena-wedding/static/media/Mestika.f5ef076b156eee9e7303.woff",
-    "static/media/Bileha.woff": "/pietro-serena-wedding/static/media/Bileha.40677a60399041db6627.woff",
-    "static/media/flower1.png": "/pietro-serena-wedding/static/media/flower1.e688daf2f314865c38fd.png",
-    "index.html": "/pietro-serena-wedding/index.html",
-    "main.05624ef5.css.map": "/pietro-serena-wedding/static/css/main.05624ef5.css.map",
-    "main.cd702ae0.js.map": "/pietro-serena-wedding/static/js/main.cd702ae0.js.map",
-    "453.4a4e6b36.chunk.js.map": "/pietro-serena-wedding/static/js/453.4a4e6b36.chunk.js.map"
+    "main.css": "/static/css/main.8e5a2c7b.css",
+    "main.js": "/static/js/main.f3e199fb.js",
+    "static/js/453.4a4e6b36.chunk.js": "/static/js/453.4a4e6b36.chunk.js",
+    "static/media/sposi.png": "/static/media/sposi.6e4d813397035f0482aa.png",
+    "static/media/church.jpg": "/static/media/church.e3e07284ca83adac78c8.jpg",
+    "static/media/Mestika.woff": "/static/media/Mestika.f5ef076b156eee9e7303.woff",
+    "static/media/BrittanySignature.ttf": "/static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
+    "static/media/Bileha.woff": "/static/media/Bileha.40677a60399041db6627.woff",
+    "index.html": "/index.html",
+    "main.8e5a2c7b.css.map": "/static/css/main.8e5a2c7b.css.map",
+    "main.f3e199fb.js.map": "/static/js/main.f3e199fb.js.map",
+    "453.4a4e6b36.chunk.js.map": "/static/js/453.4a4e6b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05624ef5.css",
-    "static/js/main.cd702ae0.js"
+    "static/css/main.8e5a2c7b.css",
+    "static/js/main.f3e199fb.js"
   ]
 }
