@@ -1,0 +1,17 @@
+.ViaggioDiNozze {
+  position: relative;
+  overflow-x: hidden;
+  max-width: 500px;
+  font-family: var(--title-second-font);
+}
+
+.icon {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  transform: scale(300%);
+}
+
+.messaggio {
+  font-size: 2vh;
+}
+

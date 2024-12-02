@@ -11,6 +11,10 @@
   src: local('Mestika Regular'), url('/src/static/fonts/Mestika.woff') format('woff');
 }
 @font-face {
+  font-family: 'Coursive Font';
+  src: local('BrittanySignature'), url('./fonts/BrittanySignature.ttf') format('truetype')
+}
+@font-face {
   font-family: 'Bileha';
   font-style: normal;
   font-weight: normal;
@@ -31,7 +35,7 @@
   --palette-color-white: #f0f0f0;
 
   /*FONT*/
-  --title-first-font: "Bileha", serif;
+  --title-first-font: "Coursive Font", serif;
   --title-second-font: "Montserrat", serif;
   --title-alternative-font: "Mestika", serif;
   --coursive-font: "League Script", cursive;
