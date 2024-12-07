@@ -17,13 +17,9 @@ function Regalo() {
         </div>
         <div className='content'>
         <strong>Cari invitati,</strong><br/>
-        avviare una vita insieme è un’avventura emozionante e, se desiderate fare un regalo,
-        un contributo economico per aiutarci a costruire il nostro futuro sarebbe il pensiero perfetto.
-        In questo modo, potremo iniziare al meglio il nostro cammino verso la nostra casa.<br/><br/>
+        Se avete il piacere di contribuire a questo nostro inizio insieme, potrete partecipare concretamente
+        alla realizzazione della nostra nuova casa:<br/><br/>
 
-
-
-        di seguito le coordinate bancarie per il contributo:<br/><br/>
         IBAN: IT70F0306903213100000016354<br/>
         Banca: Intesa Sanpaolo<br/>
         Intestato a: Pietro Quadrini<br/><br/>

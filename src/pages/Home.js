@@ -19,7 +19,7 @@ function Home() {
         <DrawerTrigger>
           <GiHamburgerMenu className='hamburger' />
         </DrawerTrigger>
-        <DrawerContent>
+        <DrawerContent className='d'>
           <DrawerHeader>
             <DrawerTitle><div className='titolo-drawler'>Pietro e Serena</div></DrawerTitle>
           </DrawerHeader>
