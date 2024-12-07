@@ -5,39 +5,49 @@
   font-family: var(--title-second-font);
 }
 
+::-webkit-scrollbar {display:none;}
+
 .titolo-pagina {
-  width: 100%;
-  margin-top: 30px;
-  text-align: center;
+  font-family: var(--title-second-font);
+  margin-top: 20px;
+  font-size: 3vh;
+  font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   font-weight: bold;
-  font-size: 2.7vh;
-  letter-spacing: 5px;
+
 }
 
-.descrizione {
-  margin-top: 10px;
+.content {
   font-size: 2vh;
-  text-align: justify;
+  font-style: normal;
+  margin-top: 20px;
 }
 
-.iban {
-  text-align: center;
+.firma {
+  font-family: var(--title-first-font);
+  font-size: 3.4vh;
+  margin-bottom: 60px;
 }
 
-.scopri {
-  margin-top: 30px;
-  font-size: 2vh;
+.img {
+  height: 30vh;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  background-color: #cce1ff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: 0.2s;
+  position: relative;
 }
 
-.scopri:hover {
-  background-color: #a9c9f5;
+img {
+  height: 100%;
+}
+
+.img::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(255,255,255, 0), 80%, #f0f0f0);
+  position: absolute;
 }

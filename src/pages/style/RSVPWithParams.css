@@ -1,7 +1,6 @@
 .RSVPWithParams {
   position: relative;
   overflow-x: hidden;
-  max-width: 500px;
   font-family: var(--title-second-font);
 }
 

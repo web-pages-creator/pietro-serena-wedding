@@ -1,0 +1,54 @@
+.main {
+
+}
+
+.h-titolo {
+  font-family: var(--title-first-font);
+  font-size: 5vh;
+  margin-top: 20px;
+}
+
+.h-sottotitolo {
+  font-family: var(--title-second-font);
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 1.7vh;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.h-data {
+  font-family: var(--title-second-font);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-size: 2.2vh;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.h-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.h-img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255,255,255, 0), 80%, #f0f0f0);
+}
+
+.h-img-i {
+  position: absolute;
+  object-fit: cover;
+}
+
+.h-drawler {
+  transform: scale(140%);
+}

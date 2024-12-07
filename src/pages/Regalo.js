@@ -2,23 +2,39 @@ import { Link } from 'react-router-dom';
 import Titolo from '../components/Titolo';
 import './style/Regalo.css';
 import { LuPlaneTakeoff } from "react-icons/lu";
-
+import Header from '../components/Header';
+import SposiImg from './../static/images/sposi-nobg.png'
 
 function Regalo() {
 
   return (
     <div className='Regalo w-full h-full box-border p-6 flex flex-col items-center justify-start'>
-      <Titolo />
-      <div className='titolo-pagina'>Regalo di nozze</div>
-      <div className='descrizione'>
-      Siamo entusiasti di condividere con voi il nostro <strong>matrimonio</strong>. Per chi volesse farci un regalo, abbiamo deciso di concentrarci su un progetto a cui teniamo particolarmente: <strong>il nostro viaggio di nozze</strong>. Un contributo a questa esperienza sarebbe per noi un gesto prezioso, che ci accompagnerà nei luoghi che sogniamo di scoprire insieme.<br/><br/>
-      Se desiderate contribuire, potete farlo tramite bonifico utilizzando il seguente IBAN: <br /><br/><div className='iban'>IT70F0306903213100000016354</div><br/>Vi ringraziamo di cuore per il vostro pensiero e per l’affetto con cui ci accompagnate in questa avventura.
-      </div>
-      <Link to='/viaggio-di-nozze'>
-        <div className='scopri'>
-          Scopri il nostro viaggio di nozze <LuPlaneTakeoff className='icon'/>
+      <Header className='header'/>
+      <div className='h-screen flex flex-col items-center justify-center'>
+        <div className='titolo-pagina'>Regalo di nozze</div>
+        <div className='img'>
+          <img src={SposiImg} />
         </div>
-      </Link>
+        <div className='content'>
+        <strong>Cari invitati,</strong><br/>
+        avviare una vita insieme è un’avventura emozionante e, se desiderate fare un regalo,
+        un contributo economico per aiutarci a costruire il nostro futuro sarebbe il pensiero perfetto.
+        In questo modo, potremo iniziare al meglio il nostro cammino verso la nostra casa.<br/><br/>
+
+
+
+        di seguito le coordinate bancarie per il contributo:<br/><br/>
+        IBAN: IT70F0306903213100000016354<br/>
+        Banca: Intesa Sanpaolo<br/>
+        Intestato a: Pietro Quadrini<br/><br/>
+
+        Con gratitudine,<br/>
+        <div className='firma'>Pietro e Serena</div>
+        {/*  <div className='normal'>Siamo felici di condividere con voi il giorno del nostro <div className='corsivo'>matrimonio</div>! Per chi volesse farci un regalo, abbiamo scelto di concentrare il vostro affetto sul nostro sogno: <div className='corsivo'>il viaggio di nozze</div>.<br/><br/></div>
+          Se desiderate contribuire, potete farlo tramite bonifico al seguente IBAN: <br /><br/><div className='iban'>IT70F0306903213100000016354</div><br/><div className='normal'><div className='corsivo'>Grazie</div> di cuore per il vostro affetto e supporto!</div>
+        */}
+        </div>
+      </div>
     </div>
   );
 }

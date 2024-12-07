@@ -4,6 +4,7 @@ import RSVPWithParams from './pages/RSVPWithParams';
 import Default from './pages/Default';
 import ViaggioDiNozze from './pages/ViaggioDiNozze';
 import Regalo from './pages/Regalo';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/rsvp/:id" element={<RSVPWithParams />} />
           <Route path="/regalo-di-nozze" element={<Regalo />} />
           <Route path="/viaggio-di-nozze" element={<ViaggioDiNozze />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<Default />} />
         </Routes>
     </div>

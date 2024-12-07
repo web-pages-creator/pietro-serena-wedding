@@ -1,0 +1,36 @@
+.Header {
+  padding-bottom: 12px;
+}
+
+.titolo {
+  font-family: var(--title-first-font);
+  font-size: 4.5vh;
+}
+
+.hamburger {
+  transform: scale(130%);
+}
+
+.titolo-drawler {
+  margin-top: 20px;
+  color: white;
+  font-family: var(--title-first-font);
+  font-size: 4vh;
+}
+
+.close svg {
+  stroke: white;
+}
+
+.d-body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  font-size: 2vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
