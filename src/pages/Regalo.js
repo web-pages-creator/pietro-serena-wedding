@@ -8,9 +8,9 @@ import SposiImg from './../static/images/sposi-nobg.png'
 function Regalo() {
 
   return (
-    <div className='Regalo w-full h-full box-border p-6 flex flex-col items-center justify-start'>
+    <div className='Regalo w-full box-border p-4 flex flex-col items-center justify-start'>
       <Header className='header'/>
-      <div className='h-screen flex flex-col items-center justify-center'>
+      <div className='r-body h-screen flex flex-col items-center justify-start'>
         <div className='titolo-pagina'>Regalo di nozze</div>
         <div className='img'>
           <img src={SposiImg} />

@@ -4,27 +4,27 @@
 
 .h-titolo {
   font-family: var(--title-first-font);
-  font-size: 5vh;
-  margin-top: 20px;
+  font-size: 6vh;
+  margin-top: 55px;
 }
 
 .h-sottotitolo {
   font-family: var(--title-second-font);
-  font-weight: lighter;
+  font-weight: 300;
   text-transform: uppercase;
   margin-top: 30px;
-  font-size: 1.7vh;
+  font-size: 1.9vh;
   padding: 5px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 .h-data {
   font-family: var(--title-second-font);
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 5px;
-  font-size: 2.2vh;
-  letter-spacing: 2px;
+  margin-top: 20px;
+  font-size: 3vh;
+  letter-spacing: 3px;
   margin-bottom: 40px;
 }
 
@@ -40,13 +40,15 @@
   left: 0;
   content: '';
   width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(255,255,255, 0), 80%, #f0f0f0);
+  height: 80%;
+  background: linear-gradient(rgba(255,255,255, 0), 90%, #f0f0f0);
+  z-index: 2;
 }
 
 .h-img-i {
   position: absolute;
   object-fit: cover;
+  height: 80%;
 }
 
 .h-drawler {

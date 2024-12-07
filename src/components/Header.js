@@ -13,7 +13,7 @@ function Header() {
     <div className="Header w-full box-border flex flex-row items-center justify-between">
       <Link to='/'><div className='titolo'>Pietro e Serena</div></Link>
       <DrawerRoot className='root' open={open} placement="end" onOpenChange={(e) => setOpen(e.open)}>
-        <DrawerBackdrop />
+        <DrawerBackdrop className='backdrop' />
         <DrawerTrigger>
           <GiHamburgerMenu className='hamburger' />
         </DrawerTrigger>

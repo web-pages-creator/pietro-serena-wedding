@@ -9,7 +9,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Home() {
   const [open, setOpen] = useState(false)
   return (
-    <div className='Home w-full h-full box-border p-6 flex flex-col items-center justify-start'>
+    <div className='Home w-full box-border p-2 flex flex-col items-center justify-start'>
       <div className='main w-screen h-screen flex flex-col items-center justify-start'>
         <div className='h-titolo'>Pietro e Serena</div>
         <div className='h-sottotitolo'>annunciano con gioia il loro matrimonio</div>

@@ -14,7 +14,7 @@ function App() {
           <Route path="/regalo-di-nozze" element={<Regalo />} />
           <Route path="/viaggio-di-nozze" element={<ViaggioDiNozze />} />
           <Route path="/" element={<Home />} />
-          <Route path="*" element={<Default />} />
+          <Route path="*" element={<Home />} />
         </Routes>
     </div>
   );

@@ -1,5 +1,10 @@
 .Header {
   padding-bottom: 12px;
+  position: fixed;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 20px;
+  background-color: var(--palette-color-white);
 }
 
 .titolo {
@@ -28,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  gap: 20px;
+  gap: 40px;
   font-size: 2vh;
   text-transform: uppercase;
   font-weight: bold;
@@ -38,4 +43,8 @@
 .d {
   background-color: white;
   color: black;
+}
+
+Link:focus {
+  outline: none;
 }
