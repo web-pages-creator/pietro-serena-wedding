@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2535a5c.css",
-    "main.js": "/static/js/main.b15d0203.js",
+    "main.css": "/static/css/main.2745575d.css",
+    "main.js": "/static/js/main.5c53b3a8.js",
     "static/js/453.4a4e6b36.chunk.js": "/static/js/453.4a4e6b36.chunk.js",
     "static/media/sposi-nobg.png": "/static/media/sposi-nobg.85e0cb95bb126f2f599c.png",
     "static/media/sposi.png": "/static/media/sposi.6e4d813397035f0482aa.png",
@@ -10,12 +10,12 @@
     "static/media/BrittanySignature.ttf": "/static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
     "static/media/Bileha.woff": "/static/media/Bileha.40677a60399041db6627.woff",
     "index.html": "/index.html",
-    "main.e2535a5c.css.map": "/static/css/main.e2535a5c.css.map",
-    "main.b15d0203.js.map": "/static/js/main.b15d0203.js.map",
+    "main.2745575d.css.map": "/static/css/main.2745575d.css.map",
+    "main.5c53b3a8.js.map": "/static/js/main.5c53b3a8.js.map",
     "453.4a4e6b36.chunk.js.map": "/static/js/453.4a4e6b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2535a5c.css",
-    "static/js/main.b15d0203.js"
+    "static/css/main.2745575d.css",
+    "static/js/main.5c53b3a8.js"
   ]
 }
