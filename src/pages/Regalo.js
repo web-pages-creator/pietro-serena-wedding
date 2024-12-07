@@ -8,7 +8,7 @@ import SposiImg from './../static/images/sposi-nobg.png'
 function Regalo() {
 
   return (
-    <div className='Regalo w-full box-border p-4 flex flex-col items-center justify-around'>
+    <div className='Regalo w-full flex flex-col items-center justify-around'>
       <Header className='header'/>
       
         <div className='titolo-pagina'>Regalo di nozze</div>

@@ -40,10 +40,19 @@
 }
 
 .d {
-  background-color: white;
+  background-color: var(--palette-color-white);
   color: black;
 }
 
-Link:focus {
-  outline: none;
+
+a {
+  text-decoration: none;
+  outline: 0;
+  border: none;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+  border: none;
 }
