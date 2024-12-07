@@ -41,6 +41,10 @@
   --coursive-font: "League Script", cursive;
 }
 
+html {
+  background-color: var(--palette-color-white);
+}
+
 body {
   background-color: var(--palette-color-white);
 }
@@ -48,6 +52,10 @@ body {
 * {
   color: var(--palette-color-black);
   text-align: center;
+}
+
+Link {
+  text-decoration: none;
 }
 
 .title {

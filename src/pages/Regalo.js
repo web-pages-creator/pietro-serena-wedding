@@ -8,9 +8,9 @@ import SposiImg from './../static/images/sposi-nobg.png'
 function Regalo() {
 
   return (
-    <div className='Regalo w-full box-border p-4 flex flex-col items-center justify-start'>
+    <div className='Regalo w-full box-border p-4 flex flex-col items-center justify-around'>
       <Header className='header'/>
-      <div className='r-body h-screen flex flex-col items-center justify-start'>
+      
         <div className='titolo-pagina'>Regalo di nozze</div>
         <div className='img'>
           <img src={SposiImg} />
@@ -30,7 +30,6 @@ function Regalo() {
           Se desiderate contribuire, potete farlo tramite bonifico al seguente IBAN: <br /><br/><div className='iban'>IT70F0306903213100000016354</div><br/><div className='normal'><div className='corsivo'>Grazie</div> di cuore per il vostro affetto e supporto!</div>
         */}
         </div>
-      </div>
     </div>
   );
 }

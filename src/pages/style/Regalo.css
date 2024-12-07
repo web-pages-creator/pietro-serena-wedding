@@ -1,8 +1,15 @@
 .Regalo {
+  height: 70vh;
+  height: 100svh;
   position: relative;
   overflow-x: hidden;
   max-width: 500px;
   font-family: var(--title-second-font);
+}
+
+.header {
+  position: sticky;
+  top: 0;
 }
 
 ::-webkit-scrollbar {display:none;}
