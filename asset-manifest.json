@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.17873b54.css",
-    "main.js": "/static/js/main.15e49c24.js",
+    "main.css": "/static/css/main.33cefa2e.css",
+    "main.js": "/static/js/main.32004d6b.js",
     "static/js/453.4a4e6b36.chunk.js": "/static/js/453.4a4e6b36.chunk.js",
     "static/media/wc.jpg": "/static/media/wc.5967954e443ee672fce6.jpg",
+    "static/media/sm.png": "/static/media/sm.6202e385ce1bba072c71.png",
     "static/media/sposi-nobg.png": "/static/media/sposi-nobg.85e0cb95bb126f2f599c.png",
     "static/media/sposi.png": "/static/media/sposi.6e4d813397035f0482aa.png",
     "static/media/fiori2.png": "/static/media/fiori2.ce0de9a9c442e1d67425.png",
@@ -13,12 +14,12 @@
     "static/media/BrittanySignature.ttf": "/static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
     "static/media/Bileha.woff": "/static/media/Bileha.40677a60399041db6627.woff",
     "index.html": "/index.html",
-    "main.17873b54.css.map": "/static/css/main.17873b54.css.map",
-    "main.15e49c24.js.map": "/static/js/main.15e49c24.js.map",
+    "main.33cefa2e.css.map": "/static/css/main.33cefa2e.css.map",
+    "main.32004d6b.js.map": "/static/js/main.32004d6b.js.map",
     "453.4a4e6b36.chunk.js.map": "/static/js/453.4a4e6b36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17873b54.css",
-    "static/js/main.15e49c24.js"
+    "static/css/main.33cefa2e.css",
+    "static/js/main.32004d6b.js"
   ]
 }
