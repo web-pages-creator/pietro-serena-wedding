@@ -4,11 +4,15 @@ import './style/Regalo.css';
 import { LuPlaneTakeoff } from "react-icons/lu";
 import Header from '../components/Header';
 import SposiImg from './../static/images/sposi-nobg.png'
+import FioreImg from './../static/images/fiore.png'
+import Sfondo from './../static/images/wc.jpg'
 
 function Regalo() {
-
+  const imgStyle = window.innerHeight > window.innerWidth ? {height: '100%'} : {width: '100%'}
   return (
-    <div className='Regalo w-full flex flex-col items-center justify-around'>
+    <div className='Regalo w-full flex flex-col p-6 items-center justify-around'>
+      <img className='header-bg' style={imgStyle} src={Sfondo}/>
+      <img className='fiore' src={FioreImg}/>
       <Header className='header'/>
       
         <div className='titolo-pagina'>Regalo di nozze</div>
@@ -16,7 +20,7 @@ function Regalo() {
           <img src={SposiImg} />
         </div>
         <div className='content'>
-        <strong>Cari invitati,</strong><br/>
+        <div className='cari'>Cari invitati,</div><br/>
         Se avete il piacere di contribuire a questo nostro inizio insieme, potrete partecipare concretamente
         alla realizzazione della nostra nuova casa:<br/><br/>
 
