@@ -7,7 +7,7 @@
 
 .titolo {
   font-family: var(--title-first-font);
-  font-size: 4.5vh;
+  font-size: 2em;
   color: black;
 }
 
@@ -19,7 +19,7 @@
   margin-top: 20px;
   color: black;
   font-family: var(--title-first-font);
-  font-size: 4vh;
+  font-size: 2em;
 }
 
 .close svg {
@@ -32,6 +32,7 @@
   align-items: center;
   margin-top: 30px;
   gap: 40px;
+  font-size: 2vh;
   font-size: 2vh;
   text-transform: uppercase;
   font-weight: bold;

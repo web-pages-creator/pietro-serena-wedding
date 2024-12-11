@@ -20,9 +20,9 @@ function Drawer() {
           <DrawerBody>
             <div className='d-body'>
               <Link to='/'>Home</Link>
-              <Link to='/'>Programma</Link>
+              <Link to='/programma'>Programma</Link>
               <Link to='/regalo-di-nozze'>Regalo di Nozze</Link>
-              <Link to='/'>Viaggio di Nozze</Link>
+              {/* <Link to='/'>Viaggio di Nozze</Link> */}
             </div>
           </DrawerBody>
           <DrawerCloseTrigger className='close'/>

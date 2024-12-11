@@ -7,7 +7,7 @@ import Sfondo from './../static/images/wc.jpg'
 
 function Home() {
   const [open, setOpen] = useState(false)
-  const imgStyle = window.innerHeight > window.innerWidth ? {height: '100%'} : {width: '100%'}
+  const imgStyle = window.innerHeight > window.innerWidth ? {height: '50em'} : {width: '100%'}
   return (
     <div className='Home w-full box-border p-2 flex flex-col items-center justify-around'>
       <img className='header-bg' style={imgStyle} src={Sfondo}/>

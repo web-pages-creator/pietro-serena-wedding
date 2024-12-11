@@ -8,9 +8,9 @@ import FioreImg from './../static/images/fiore.png'
 import Sfondo from './../static/images/wc.jpg'
 
 function Regalo() {
-  const imgStyle = window.innerHeight > window.innerWidth ? {height: '100%'} : {width: '100%'}
+  const imgStyle = window.innerHeight > window.innerWidth ? {height: '50em'} : {width: '100%'}
   return (
-    <div className='Regalo w-full flex flex-col p-6 items-center justify-around'>
+    <div className='Regalo flex flex-col p-6 items-center justify-around'>
       <img className='header-bg' style={imgStyle} src={Sfondo}/>
       <img className='fiore' src={FioreImg}/>
       <Header className='header'/>

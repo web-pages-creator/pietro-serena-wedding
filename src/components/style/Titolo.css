@@ -4,12 +4,14 @@
 
 .logo-main {
   font-size: 6vh;
+  font-size: 6dvh;
   font-family: var(--title-first-font);
   margin-bottom: 10px;
 }
 
 .logo-subtitle {
   font-size: 2vh;
+  font-size: 2dvh;
   font-weight: bold;
   font-family: var(--title-second-font);
   letter-spacing: 5px;
