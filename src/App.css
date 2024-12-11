@@ -115,3 +115,40 @@ body::before {
   line-height: 1em;
   letter-spacing: 0.08em;
 }
+
+.l-wrapper {
+  position: fixed;
+  z-index: 200;
+}
+
+.l-title {
+  position: relative;
+  font-family: var(--title-first-font);
+  font-size: 2em;
+  padding: 20px;
+  z-index: 100;
+  height: 4em;
+  width: 4em;
+}
+
+.l-title::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 50%;
+  border-top: solid 2px black;
+  animation: 1s loading-animation infinite;
+}
+
+@keyframes loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
